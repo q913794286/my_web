@@ -39,7 +39,7 @@ function handler (query, config) {
 
   const lunrInstance = getLunr(config);
   const idx = lunrInstance(function () {
-    this.use(getStemmers(config));
+//    this.use(getStemmers(config));    //结构多余
     this.field('title');
     this.field('body');
     this.ref('id');

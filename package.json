@@ -29,12 +29,12 @@
   "bin": "./bin/raneto",
   "main": "./app/index.js",
   "scripts": {
-    "start": "DEBUG=raneto node example/server.js",
-    "start_win": "set DEBUG=raneto&&node example/server.js",
+    "start": "DEBUG=raneto node wiki/server.js",
+    "start_win": "set DEBUG=raneto&&node wiki/server.js",
     "test": "npm run lint && mocha --reporter spec test/*.js",
     "postinstall": "npm run gulp",
     "gulp": "gulp",
-    "lint": "./node_modules/.bin/eslint bin/*.js app/**/*.js example/**/*.js test/*.js translate/*.json gulpfile.js"
+    "lint": "./node_modules/.bin/eslint bin/*.js app/**/*.js wiki/**/*.js test/*.js translate/*.json gulpfile.js"
   },
   "engines": {
     "node": ">=4.0.0"
@@ -67,9 +67,11 @@
     "masonry-layout": "^4.2.1",
     "moment": "^2.22.1",
     "morgan": "^1.9.0",
+    "nodejieba": "^2.2.6",
     "passport": "^0.4.0",
     "passport-google-oauth20": "^1.0.0",
     "pm2": "^2.10.2",
+    "raneto-core": "^0.5.1",
     "sanitize-filename": "^1.6.1",
     "serve-favicon": "^2.5.0",
     "sitemap": "^1.13.0",

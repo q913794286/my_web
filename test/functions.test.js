@@ -25,7 +25,7 @@ const config = {
   searchExtraLanguages: ['ru'],
   debug: false,
   content_dir: path.join(__dirname, 'content/'),
-  datetime_format: 'Do MMM YYYY'
+  datetime_format: 'LLLL'
 };
 
 describe('#get_last_modified()', function () {

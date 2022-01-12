@@ -61,7 +61,7 @@
     "js-yaml": "^3.11.0",
     "lunr": "^2.1.5",
     "lunr-languages": "^1.0.0",
-    "markdown-it": "^8.4.0",
+    "markdown-it": "^12.3.2",
     "markdown-toc": "^1.2.0",
     "marked": "^0.3.19",
     "masonry-layout": "^4.2.1",

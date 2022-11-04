@@ -52,7 +52,7 @@
     "extend": "^3.0.1",
     "fitvids": "^2.0.0",
     "glob": "^7.1.2",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-shell": "^0.6.5",
     "highlightjs": "^9.10.0",
     "hogan-express": "^0.5.2",
